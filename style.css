@@ -5,41 +5,35 @@
   margin-bottom: 0px;
 }
 
-.nsvalogo {
 
-  width: 20%;
-  height: 20%;
-}
-
-
-/* till navbar/* \ */
-.container {
+/* till navbar*/
+.navbar {
   background-color: #1b548d;
   border: 50px;
 
 }
 
-.container ul {
+.navbar ul {
   overflow: auto;
   display: block;
 
 }
 
-.container li {
+.navbar li {
   float: left;
   list-style: none;
   margin: 14px 18px;
 
 }
 
-.container li a {
+.navbar li a {
   padding: 3px 3px;
   text-decoration: none;
   color: white;
 
 }
 
-.container li a:hover {
+.navbar li a:hover {
   background-color: #063665;
   text-decoration: none;
   text-transform: none;
@@ -81,8 +75,9 @@
   text-transform: none;
 }
 
+/* /* flex box\ */
 * {
-  margin: 0;
+
   padding: 0;
   box-sizing: border-box;
 }
@@ -90,18 +85,44 @@
 .container {
   background: color #eceff1;
   padding: 10px;
-
   display: flex;
-justify-content: space-evenly;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
 
 }
 
-
 .item {
   background-color: #addafa;
+  display: flex;
   padding: 30px;
   margin: 30px;
   color: black;
   font-size: 25px;
 
+}
+
+/*.container ul {  behåll?
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.container {
+  background: color #eceff1;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+} /* flex box\ */
+
+
+.nyheter {
+
+  text-align: right;
+  margin-right: 350px;
+  font-size: 25px;
 }
