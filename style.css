@@ -5,6 +5,13 @@
   margin-bottom: 0px;
 }
 
+.nsvalogo {
+
+  width: 20%;
+  height: 20%;
+}
+
+
 /* till navbar/* \ */
 .container {
   background-color: #1b548d;
@@ -40,10 +47,12 @@
 }
 
 /* navbar höger/* \ */
+
+
 .topheader {
   background-color: #b1b1b1;
-  border: 15px; 
- 
+  border: 15px;
+
 }
 
 .topheader ul {
@@ -72,4 +81,27 @@
   text-transform: none;
 }
 
-s
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: color #eceff1;
+  padding: 10px;
+
+  display: flex;
+justify-content: space-evenly;
+
+}
+
+
+.item {
+  background-color: #addafa;
+  padding: 30px;
+  margin: 30px;
+  color: black;
+  font-size: 25px;
+
+}
