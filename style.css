@@ -185,17 +185,13 @@
   
 
 }
-
-.tvåbilder {
-display: flex;
-justify-content: flex-end;
-
-} 
+ 
 
 .grävskopa {
 display: flex;
 background: none;
-flex-direction: row;
+flex-direction: row; 
+
 
 
 }
