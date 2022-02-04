@@ -6,6 +6,7 @@
 }
 
 
+
 /* till navbar*/
 .navbar {
   background-color: #1b548d;
@@ -104,56 +105,35 @@
 
 }
 
-/*.container ul {  behåll?
-  display: flex;
-  justify-content: space-evenly;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-}
-
-.container {
-  background: color #eceff1;
-  padding: 10px;
-  display: flex;
-  justify-content: space-evenly;
-  justify-content: center;
-  align-items: center;
-} /* flex box\ */
-
-
-
-
 .item1 {
   display: flex;
   font-size: 50px;
   margin-left: 1100px;
   margin-top: 10px;
   margin-bottom: 10px;
-  
+
 
 }
 
 .nybilder {
   display: flex;
-  justify-content: flex-start;
-  padding: 0px;
-  margin-left: 1200px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  background-color: #eceff1;
-  justify-content: right;
+  flex-direction: column;
+
+  margin-left: 1000px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 
 }
 
 .item2 {
 
   display: flex;
-  font-size: 18px;
+
   justify-content: space-evenly;
   margin: 50px;
   flex-direction: column;
-  background-color: #eceff1;
+  background-color: none;
   padding: 30px;
 
 }
@@ -163,44 +143,219 @@
   display: flex;
   padding: 0px;
   margin: 0px;
+  justify-content: left;
   flex-direction: column;
   justify-content: space-evenly;
   justify-content: space-between;
-  background-color: #eceff1;
-
+  background-color: none;
 
 }
 
 .item4 {
 
   display: flex;
-  
+
   justify-content: right;
   flex-direction: column;
-  justify-content: space-evenly;
   justify-content: space-between;
-  background-color: #eceff1;
+  background-color: none;
   padding: 10px;
   margin: 10px;
-  
 
 }
- 
+
+
+#tvåbilder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.projekt {
+
+  display: none;
+  margin-top: 10%;
+
+
+}
 
 .grävskopa {
-display: flex;
-background: none;
-flex-direction: row; 
+  display: inline-block;
 
+  justify-content: space-between;
+  justify-content: space-around;
+  margin-right: 70%;
+  margin-top: 6%;
+  color: black;
+  padding-bottom: 5%;
+  margin-bottom: -5%;
 
 
 }
 
 .trähus {
-  display: flex;
-  background: none;
-flex-direction: row;
+  display: inline-block;
+
+  justify-content: space-between;
+  justify-content: space-around;
+
+  margin-bottom: 6%;
+  background-color: #eceff1;
+  margin-top: -5%;
+  padding-bottom: 5%;
 
 }
+
+.tvårader {
+  display: flex;
+
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.vattenmätaren {
+  display: flex;
+  margin-left: 13%;
+  font-size: 30px;
+
+}
+
+.item10 {
+  display: flex;
+  flex-direction: row;
+  margin: 3%;
+  color: #addafa;
+
+}
+
+.Dricksvatten {
+  display: flex;
+  margin-left: 46%;
+  margin-top: -4%;
+  font-size: 30px;
+  margin-bottom: -30%;
+
+}
+
+.item11 {
+  display: flex;
+  flex-direction: row;
+  margin: 46%;
+  margin-top: -33%;
+  justify-content: space-between;
+
+}
+
+.del2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -44%;
+}
+
+
+.item12 {
+  display: flex;
+  flex-direction: row;
+  margin: 3%;
+  justify-content: space-between;
+
+}
+
+.del3 {
+display: flex;
+flex-direction: column;
+
+
+}
+
+
+.avlopp {
+display: flex;
+margin-left: 4%;
+font-size: 30px;
+
+}
+
+
+.item13 {
+  display: flex;
+  flex-direction: column;
+  
+  margin: 3%;
+}
+ 
+.va {
+  display: flex;
+  margin-left: 8%;
+  font-size: 30px;
+}
+
+
+
+.item14 {
+  display: flex;
+  flex-direction: row;
+
+  margin:3%;
+  justify-content: space-between;
+}
+
+  .sms {
+    display: flex;
+  margin-left: 4%;
+  font-size: 30px;
+}
+
+
+
+.item15 {
+  display: flex;
+  flex-direction: row;
+
+  margin: 3%;
+  justify-content: space-between;
+ 
+
+}
+
+.footer {
+  background-color: #1b548d;
+  border: 50px;
+
+}
+
+.footer ul {
+  overflow: auto;
+  display: block;
+
+}
+
+.footer li {
+  float: left;
+  list-style: none;
+  margin: 14px 18px;
+
+
+}
+
+.footer li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+
+}
+
+.footer li a:hover {
+  background-color: #063665;
+  text-decoration: none;
+  text-transform: none;
+
+}
+
+
+
 
 
